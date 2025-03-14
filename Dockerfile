@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy the HTML website files to the Nginx directory
-COPY website/ /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 # Expose port 80 to the outside world
 EXPOSE 80
